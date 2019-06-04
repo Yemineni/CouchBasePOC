@@ -1,13 +1,13 @@
-package com.wavelabs.CouchBasePOC;
+package com.wavelabs.couch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CouchBasePocApplication {
+public class CouchBaseExampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CouchBasePocApplication.class, args);
+		SpringApplication.run(CouchBaseExampleApplication.class, args);
 	}
 
 }
